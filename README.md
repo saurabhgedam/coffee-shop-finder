@@ -24,7 +24,7 @@ ht<span>tp://</span>localhost:3000/shop/{shopID}
 
 #### Example:
 
-http://localhost:3000/shop/56
+ht<span>tp://</span>localhost:3000/shop/56
 
 #### Sample Response:
 
@@ -40,7 +40,7 @@ http://localhost:3000/shop/56
 
 #### Request Syntax: 
 
-http://localhost:3000/shop
+ht<span>tp://</span>localhost:3000/shop
 
 #### Request Body Syntax:
 {
@@ -52,7 +52,7 @@ http://localhost:3000/shop
 
 #### Example: 
 
-http://localhost:3000/shop
+ht<span>tp://</span>localhost:3000/shop
 
 #### Request Body Sample (Raw - JSON):
 
@@ -73,7 +73,7 @@ http://localhost:3000/shop
 
 #### Request Syntax: 
 
-http://localhost:3000/shop/{shop id}
+ht<span>tp://</span>localhost:3000/shop/{shop id}
 
 #### Request Body Syntax:
 {
@@ -85,7 +85,7 @@ http://localhost:3000/shop/{shop id}
 
 #### Example:
 
-http://localhost:3000/shop/21
+ht<span>tp://</span>localhost:3000/shop/21
 
 #### Request Body Sample (Raw-JSON):
 
@@ -107,11 +107,11 @@ http://localhost:3000/shop/21
 
 #### Request Syntax: 
 
-http://localhost:3000/shop/{shop id}
+ht<span>tp://</span>localhost:3000/shop/{shop id}
 
 #### Request Example:
 
-http://localhost:3000/shop/20
+ht<span>tp://</span>localhost:3000/shop/20
 
 
 #### Expected Response:
@@ -124,11 +124,11 @@ http://localhost:3000/shop/20
 
 #### Request Syntax: 
 
-http://localhost:3000/shop/locate/nearest?address= {source address} 
+ht<span>tp://</span>localhost:3000/shop/locate/nearest?address= {source address} 
 
 #### Request Example:
 
-http://localhost:3000/shop/locate/nearest?address=535 Mission St., San Francisco, CA 
+ht<span>tp://</span>localhost:3000/shop/locate/nearest?address=535 Mission St., San Francisco, CA 
 
 #### Expected Response:
 
