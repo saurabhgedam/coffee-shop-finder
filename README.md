@@ -20,7 +20,7 @@ Coffee shop finder is a Node.js application project to create REST APIs to query
 
 #### Syntax: 
 
-http://localhost:3000/shop/{shopID}
+ht<span>tp://</span>localhost:3000/shop/{shopID}
 
 #### Example:
 
