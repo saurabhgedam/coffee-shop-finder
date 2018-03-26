@@ -15,6 +15,7 @@ Coffee shop finder is a Node.js application project to create REST APIs to query
 - Navigate to the root directory from command line.
 - Run the 'npm install' command. This will download all the dependencies noted in package.json.
 - Run the 'npm start' command. This will start the server on port 3000.
+- Begin testing the service using an HTTP client.
 
 ## GET:
 
