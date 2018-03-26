@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- form -->
+  
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- form ends-->
+
+
+
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Radio Button Tabs - Bootsnipp.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <style type="text/css">
+        
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="span12">
+            <hr>
+             
+            <p class="lead">Coffee Shop Finder</p>
+            <div id="tab" class="btn-group" data-toggle="buttons-radio">
+              <a href="#CreateShop" class="btn btn-large btn-info active" data-toggle="tab">Create Shop</a>
+              <a href="#FindShop" class="btn btn-large btn-info" data-toggle="tab">Find Shop</a>
+              <a href="#UpdateShop" class="btn btn-large btn-info" data-toggle="tab">Update Shop</a>
+              <a href="#DeleteShop" class="btn btn-large btn-info"  data-toggle="tab">Delete Shop</a>
+              <a href="#LocateNearest" class="btn btn-large btn-info"  data-toggle="tab">Locate Nearest Coffee Shop</a>
+            </div>
+             
+            <div class="tab-content">
+              
+
+
+
+              <div class="tab-pane active" id="CreateShop">
+                <br>
+                <form class="well span8">
+                  <div class="row">
+                        <div class="span3">
+                            <label>Shop Name</label>
+                            <input type="text" class="span3" placeholder="Shop Name">
+                            <label>Shop Address</label>
+                            <input type="text" class="span3" placeholder="Address">
+                            <label>Latitude</label>
+                            <input type="text" class="span3" placeholder="Latitude">
+                             <label>Longitude</label>
+                            <input type="text" class="span3" placeholder="Longitude">
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                            <hr>
+                            <div id="CreateBox"><h3> Confirmation or Error message</h3></div>
+                        </div>
+                    </div>
+                </form>
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+              <div class="tab-pane" id="FindShop">
+                    <br>  
+                <form class="well span8">
+                  <div class="row">
+                        <div class="span3">
+                            <label>Shop Name</label>
+                            <input type="text" class="span3" placeholder="Shop ID">
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                            <hr>
+                            <div id="FindBox"><h3> Confirmation or Error message</h3></div>
+                        </div>
+                    </div>
+                </form>
+              </div>
+
+
+
+
+              <div class="tab-pane" id="UpdateShop">
+                    <br>
+                <form class="well span8">
+                  <div class="row">
+                        <div class="span3">
+                            <label>Current Shop ID</label>
+                            <input type="text" class="span3" placeholder="Current ID">
+                            <label>New Shop Name</label>
+                            <input type="text" class="span3" placeholder="New Shop Name">
+                            <label>New Shop Address</label>
+                            <input type="text" class="span3" placeholder="New Shop Address">
+                            <label>New Latitude</label>
+                            <input type="text" class="span3" placeholder="New Latitude">
+                            <label>New Longitude</label>
+                            <input type="text" class="span3" placeholder="New Longitude">
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                            <hr>
+                            <div id="UpdateBox"><h3> Confirmation or Error message</h3></div>
+                        </div>
+                    </div>
+                </form>
+
+
+              </div>
+
+
+
+              <div class="tab-pane" id="DeleteShop">
+                    <br>
+                <form class="well span8">
+                  <div class="row">
+                        <div class="span3">
+                            <label>ID of the shop to be deleted</label>
+                            <input type="text" class="span3" placeholder="Shop ID.....">
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                                                        <hr>
+                            <div id="DeleteBox"><h3> Confirmation or Error message</h3></div>
+
+                        </div>
+                    </div>
+                </form>
+              </div>
+
+
+              <div class="tab-pane" id="LocateNearest">
+                <br>
+                <form class="well span8">
+                  <div class="row">
+                        <div class="span3">
+                            <label>Enter your address</label>
+                            <input type="text" class="span3" placeholder="Address.....">
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                                                        <hr>
+                            <div id="LocateBox"><h3> Confirmation or Error message</h3></div>
+
+                        </div>
+                    </div>
+                </form>
+              </div>
+
+
+
+            </div>
+        </div>
+	</div>
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
