@@ -63,7 +63,7 @@ http://localhost:3000/shop
     "longitude": "-120.12997324121123"
 }
 
-Expected Response:
+#### Expected Response:
 
 {
     "success": "Shop added with ID: 57"
