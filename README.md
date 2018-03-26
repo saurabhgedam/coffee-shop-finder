@@ -29,11 +29,11 @@ ht<span>tp://</span>localhost:3000/shop/56
 #### Sample Response:
 
 {
-    "id": "56",
-    "name": "Chapel Hill Coffee Co.",
-    "address": "670 Commercial St",
-    "latitude": "37.794096040757196",
-    "longitude": "-122.40423200906335"
+    "id": "56",\n
+    "name": "Chapel Hill Coffee Co.",\n
+    "address": "670 Commercial St",\n
+    "latitude": "37.794096040757196",\n
+    "longitude": "-122.40423200906335"\n
 }
 
 ## POST:
