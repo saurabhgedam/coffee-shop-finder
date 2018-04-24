@@ -129,7 +129,7 @@ router.get('/locate/nearest', (req, res, next) => {
     var sourceLng;
     request({
 
-        url: 'https://maps.googleapis.com/maps/api/geocode/json?address=' + sourceAddress + '&key=AIzaSyAxPASxvt1ABANlH880IBdG3JZpqmzfucc',
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address=' + sourceAddress + 'Insert your Google API key here. Keep double quotes.',
         json: true
     }, (error, response, body) => {
 
