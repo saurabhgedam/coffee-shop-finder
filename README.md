@@ -12,6 +12,9 @@ Coffee shop finder is a Node.js application project to create REST APIs to query
 
 ## Steps:
 - Download or clone the git repository.
+- Open the shop.js file in the api/routes/ directory.
+- On line 132, insert a Google Maps API Key generated from your Google account. The key should be enclosed within quotes.
+  The key is required for using the Google Maps API for finding the coordinates of newly inserted or updated locations. 
 - Navigate to the root directory from command line.
 - Run the 'npm install' command. This will download all the dependencies noted in package.json.
 - Run the 'npm start' command. This will start the server on port 3000.
